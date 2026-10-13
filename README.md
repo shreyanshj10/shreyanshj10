@@ -8,7 +8,7 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 
 ## Merged
 
-18 merged pull requests across 11 repositories.
+15 merged pull requests across 10 repositories.
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
@@ -25,13 +25,14 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 
 ## Open, under review
 
-22 pull requests awaiting review, including:
+24 pull requests awaiting review, including:
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 253k | 1 | stale caller-root handling in the Windows desktop update verifier |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 93.7k | 2 | streaming tool-parser fixes — xLAM nested arguments, and DeepSeek-V3 arguments pretty-printed over several lines |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 93.7k | 3 | streaming tool-parser fixes — xLAM nested arguments, and DeepSeek-V3 arguments pretty-printed over several lines; and a KV-offload fs tier that failed a whole batch when another engine instance had already published the same content-hashed block |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.3k | 1 | admit the `id` prop the indexer already reads, on the docs `Meta` block |
+| [stablyai/orca](https://github.com/stablyai/orca) | 91.1k | 1 | index agent sessions on Windows — the scanner built its root from a Unix-only home path with no platform branch |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.3k | 1 | fix a crash renaming a directory while the dir cache expires — the parent's map was written under the child's lock |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 52.6k | 1 | forward the Windows system environment to the runtime child process |
 | [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) | 36.0k | 1 | scope the MySQL check-constraint introspection join to its schema |
