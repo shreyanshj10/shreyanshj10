@@ -23,8 +23,6 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 | [haddocking/haddock3](https://github.com/haddocking/haddock3) | 276 | 1 | [#1712](https://github.com/haddocking/haddock3/pull/1712) — remove two sialylation loops that could never fire |
 | [mkbhardwas12/pwned-deps](https://github.com/mkbhardwas12/pwned-deps) | 164 | 1 | [#15](https://github.com/mkbhardwas12/pwned-deps/pull/15) — scan CycloneDX and SPDX documents as check input |
 
-Plus three merged in [0101Harshit/web-chat-assistant](https://github.com/0101Harshit/web-chat-assistant).
-
 ## Open, under review
 
 22 pull requests awaiting review, including:
