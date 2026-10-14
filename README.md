@@ -8,7 +8,7 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 
 ## Merged
 
-15 merged pull requests across 10 repositories.
+16 merged pull requests across 11 repositories.
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
@@ -18,6 +18,7 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 | [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | 3.6k | 1 | [#30170](https://github.com/lingdojo/kana-dojo/pull/30170) — add a new common-mistake entry |
 | [spec-kitty/spec-kitty](https://github.com/spec-kitty/spec-kitty) | 1.7k | 1 | [#4798](https://github.com/spec-kitty/spec-kitty/pull/4798) — label query-mode preflight failures by consumer |
 | [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 1.2k | 1 | [#6056](https://github.com/sipyourdrink-ltd/bernstein/pull/6056) — report a crashed test file by its exit status |
+| [vikdevelop/SaveDesktop](https://github.com/vikdevelop/SaveDesktop) | 819 | 1 | [#555](https://github.com/vikdevelop/SaveDesktop/pull/555) — fix saving when a cached workspace path is a file, and recover installs already left that way |
 | [zostera/django-bootstrap5](https://github.com/zostera/django-bootstrap5) | 452 | 5 | [#879](https://github.com/zostera/django-bootstrap5/pull/879) `show_label` on `bootstrap_label` · [#881](https://github.com/zostera/django-bootstrap5/pull/881) accept a lazy `static()` value · [#880](https://github.com/zostera/django-bootstrap5/pull/880) keep a widget template set on a subclass · [#876](https://github.com/zostera/django-bootstrap5/pull/876) add-ons on floating-label fields · [#873](https://github.com/zostera/django-bootstrap5/pull/873) recognise `color`/`week`/`search` inputs |
 | [PicPeak/picpeak](https://github.com/PicPeak/picpeak) | 334 | 1 | [#1417](https://github.com/PicPeak/picpeak/pull/1417) — regenerate missing thumbnails for already-uploaded videos |
 | [haddocking/haddock3](https://github.com/haddocking/haddock3) | 276 | 1 | [#1712](https://github.com/haddocking/haddock3/pull/1712) — remove two sialylation loops that could never fire |
@@ -25,14 +26,17 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 
 ## Open, under review
 
-24 pull requests awaiting review, including:
+27 pull requests awaiting review, including:
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 253k | 1 | stale caller-root handling in the Windows desktop update verifier |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 213k | 1 | re-read the Home session index on its staleness window, so sessions created by a second server on the same database appear |
+| [langgenius/dify](https://github.com/langgenius/dify) | 158k | 1 | stop structured output picking JSON out of a reasoning model's chain of thought instead of the answer |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 93.7k | 3 | streaming tool-parser fixes — xLAM nested arguments, and DeepSeek-V3 arguments pretty-printed over several lines; and a KV-offload fs tier that failed a whole batch when another engine instance had already published the same content-hashed block |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.3k | 1 | admit the `id` prop the indexer already reads, on the docs `Meta` block |
 | [stablyai/orca](https://github.com/stablyai/orca) | 91.1k | 1 | index agent sessions on Windows — the scanner built its root from a Unix-only home path with no platform branch |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 61k | 2 | scan the call types the proxy really sends for prompt injection, and return 400 on a malformed Anthropic `tool_choice` |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.3k | 1 | fix a crash renaming a directory while the dir cache expires — the parent's map was written under the child's lock |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 52.6k | 1 | forward the Windows system environment to the runtime child process |
 | [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) | 36.0k | 1 | scope the MySQL check-constraint introspection join to its schema |
