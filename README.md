@@ -26,13 +26,14 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 
 ## Open, under review
 
-27 pull requests awaiting review, including:
+29 pull requests awaiting review, including:
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 253k | 1 | stale caller-root handling in the Windows desktop update verifier |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 213k | 1 | re-read the Home session index on its staleness window, so sessions created by a second server on the same database appear |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 213k | 2 | re-read the Home session index on its staleness window, so sessions created by a second server on the same database appear; and support the LaTeX control space, which made a whole math fence print its raw source |
 | [langgenius/dify](https://github.com/langgenius/dify) | 158k | 1 | stop structured output picking JSON out of a reasoning model's chain of thought instead of the answer |
+| [github/spec-kit](https://github.com/github/spec-kit) | 141k | 1 | resolve the hook invocation prefix per agent, so a generated Codex skill stops telling you to run a command Codex cannot parse |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 93.7k | 3 | streaming tool-parser fixes — xLAM nested arguments, and DeepSeek-V3 arguments pretty-printed over several lines; and a KV-offload fs tier that failed a whole batch when another engine instance had already published the same content-hashed block |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.3k | 1 | admit the `id` prop the indexer already reads, on the docs `Meta` block |
 | [stablyai/orca](https://github.com/stablyai/orca) | 91.1k | 1 | index agent sessions on Windows — the scanner built its root from a Unix-only home path with no platform branch |
