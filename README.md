@@ -1,3 +1,19 @@
+<div align="center">
+
+<h3><code>shreyanshj10@github ~ $ whoami</code></h3>
+
+<img src="./profile-card.svg" width="860" alt="AI engineer; 18 merged pull requests across 13 repositories" />
+
+<br><br>
+
+<h3><code>shreyanshj10@github ~ $ merged --by-repo</code></h3>
+
+<img src="./merged-ladder.svg" width="860" alt="merged pull requests by repository, ordered by stars" />
+
+</div>
+
+<br>
+
 # Shreyansh Jain
 
 AI engineer. I work on agent systems, LLM tooling and the plumbing underneath them — streaming
