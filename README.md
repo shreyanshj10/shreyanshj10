@@ -1,14 +1,26 @@
 <div align="center">
 
-<h3><code>shreyanshj10@github ~ $ whoami</code></h3>
-
-<img src="./profile-card.svg" width="860" alt="AI engineer; 18 merged pull requests across 13 repositories" />
-
-<br><br>
+<!-- both cards are generated from the contribution ledger by
+     `python scripts/profile_art.py` in the pipeline repo, which writes a dark and a
+     light variant of each; re-run it after any merge so the numbers cannot drift.
+     Motion is SMIL inside the SVG because GitHub strips <script> and inline CSS. -->
 
 <h3><code>shreyanshj10@github ~ $ merged --by-repo</code></h3>
 
-<img src="./merged-ladder.svg" width="860" alt="merged pull requests by repository, ordered by stars" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./merged-ladder-dark.svg">
+  <img src="./merged-ladder-light.svg" width="860" alt="Merged pull requests by repository: dify 158.7k, vLLM 94.0k, book-to-skill 35.1k, serena 30.3k, bifrost 8.9k" />
+</picture>
+
+<br>
+<br>
+
+<h3><code>shreyanshj10@github ~ $ whoami</code></h3>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-card-dark.svg">
+  <img src="./profile-card-light.svg" width="860" alt="AI engineer; 18 merged pull requests across 13 repositories; 75% merge rate" />
+</picture>
 
 </div>
 
@@ -24,7 +36,8 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 
 ## Merged
 
-18 merged pull requests across 13 repositories.
+<details>
+<summary><b>18 merged pull requests across 13 repositories</b> — open for the list</summary>
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
@@ -42,9 +55,12 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 | [haddocking/haddock3](https://github.com/haddocking/haddock3) | 276 | 1 | [#1712](https://github.com/haddocking/haddock3/pull/1712) — remove two sialylation loops that could never fire |
 | [mkbhardwas12/pwned-deps](https://github.com/mkbhardwas12/pwned-deps) | 164 | 1 | [#15](https://github.com/mkbhardwas12/pwned-deps/pull/15) — scan CycloneDX and SPDX documents as check input |
 
+</details>
+
 ## Open, under review
 
-27 pull requests awaiting review, including:
+<details>
+<summary><b>28 pull requests awaiting review</b> — open for the list</summary>
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
@@ -62,6 +78,8 @@ wrong on the one beside it. Below is where that has turned into upstream work.
 | [share/sharedb](https://github.com/share/sharedb) | 6.5k | 1 | validate ids and versions on the bulk and query-reconnect paths |
 | [ansible-collections/community.general](https://github.com/ansible-collections/community.general) | 1.1k | 1 | close `pkg(8)`'s stdin so it takes defaults instead of hanging |
 | [zostera/django-modeltrans](https://github.com/zostera/django-modeltrans) | 80 | 8 | expression fallback, per-lookup annotations, lazy language resolution, `distinct()` support, type-checker resolution |
+
+</details>
 
 ## Stack
 
