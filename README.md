@@ -3,7 +3,6 @@
 <!-- Every image here is generated into this repo and committed, so nothing is fetched from a
      third-party stats service that can rate-limit or go dark.
        cards + banner : python scripts/profile_art.py        (reads the contribution ledger)
-       portrait       : python scripts/portrait_svg.py <illustration>
      Each writes a -dark and a -light variant; <picture> picks by prefers-color-scheme.
      Motion is SMIL inside each SVG, because GitHub strips <script> and inline CSS. -->
 
@@ -20,19 +19,10 @@
 
 <br>
 
-<table>
-<tr>
-<td valign="top" width="430">
-<img src="./portrait.svg" width="430" alt="Illustrated portrait of Shreyansh Jain" />
-</td>
-<td valign="top" width="430">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-card-compact-dark.svg">
-  <img src="./profile-card-compact-light.svg" width="430" alt="Fullstack developer and AI builder; 18 merged pull requests in 13 repositories; 75% merge rate" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-card-dark.svg">
+  <img src="./profile-card-light.svg" width="860" alt="AI engineer; 18 merged pull requests across 13 repositories; 75% merge rate" />
 </picture>
-</td>
-</tr>
-</table>
 
 <br>
 
