@@ -1,26 +1,50 @@
 <div align="center">
 
-<!-- both cards are generated from the contribution ledger by
-     `python scripts/profile_art.py` in the pipeline repo, which writes a dark and a
-     light variant of each; re-run it after any merge so the numbers cannot drift.
-     Motion is SMIL inside the SVG because GitHub strips <script> and inline CSS. -->
+<!-- Everything here is generated into this repo and committed, so nothing is fetched from a
+     third-party stats service that can rate-limit or go down.
+       portrait : python scripts/ascii_portrait.py <illustration> --crop 0.60 --cols 78
+       cards    : python scripts/profile_art.py
+     Both write a -dark and a -light variant; <picture> picks by prefers-color-scheme.
+     Motion is SMIL inside each SVG, because GitHub strips <script> and inline CSS. -->
+
+<h3><code>shreyanshj10@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top" width="430">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./portrait-dark.svg">
+  <img src="./portrait-light.svg" width="430" alt="ASCII portrait of Shreyansh Jain" />
+</picture>
+</td>
+<td valign="top" width="430">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-card-compact-dark.svg">
+  <img src="./profile-card-compact-light.svg" width="430" alt="Fullstack developer and AI builder; 18 merged pull requests in 13 repositories; 75% merge rate" />
+</picture>
+</td>
+</tr>
+</table>
+
+<br>
 
 <h3><code>shreyanshj10@github ~ $ merged --by-repo</code></h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./merged-ladder-dark.svg">
-  <img src="./merged-ladder-light.svg" width="860" alt="Merged pull requests by repository: dify 158.7k, vLLM 94.0k, book-to-skill 35.1k, serena 30.3k, bifrost 8.9k" />
+  <img src="./merged-ladder-light.svg" width="860" alt="Merged pull requests by repository: dify 158.8k, vLLM 94.0k, book-to-skill 35.1k, serena 30.3k, bifrost 8.9k" />
 </picture>
 
 <br>
 <br>
 
-<h3><code>shreyanshj10@github ~ $ whoami</code></h3>
+<h3><code>shreyanshj10@github ~ $ ./links.sh</code></h3>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-card-dark.svg">
-  <img src="./profile-card-light.svg" width="860" alt="AI engineer; 18 merged pull requests across 13 repositories; 75% merge rate" />
-</picture>
+<p><b>Fullstack Developer · AI Builder · Agentic Systems</b></p>
+
+[![Merged PRs](https://img.shields.io/badge/Merged_PRs-18_across_13_repos-1a7f37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Ashreyanshj10+is%3Amerged)
+[![Instagram](https://img.shields.io/badge/Instagram-shreyanshjainnnn-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shreyanshjainnnn)
+[![Email](https://img.shields.io/badge/Email-shreyanshjain646-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyanshjain646@gmail.com)
 
 </div>
 
