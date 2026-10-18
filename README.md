@@ -9,7 +9,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./name-banner-dark.svg">
-  <img src="./name-banner-light.svg" width="860" alt="Shreyansh Jain — Indore, India" />
+  <img src="./name-banner-light.svg" width="860" alt="Shreyansh Jain, Indore, India" />
 </picture>
 
 <p><b>Fullstack Developer · AI Builder · Agentic Systems</b></p>
@@ -35,8 +35,6 @@
 </table>
 
 <br>
-
-<h3><code>shreyanshj10@github ~ $ merged --by-repo</code></h3>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./merged-ladder-dark.svg">
