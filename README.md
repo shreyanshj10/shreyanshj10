@@ -12,10 +12,7 @@
 <table>
 <tr>
 <td valign="top" width="430">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./portrait-dark.svg">
-  <img src="./portrait-light.svg" width="430" alt="ASCII portrait of Shreyansh Jain" />
-</picture>
+<img src="./portrait.svg" width="430" alt="Illustrated portrait of Shreyansh Jain" />
 </td>
 <td valign="top" width="430">
 <picture>
