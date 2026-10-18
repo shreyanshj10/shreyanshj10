@@ -1,13 +1,24 @@
 <div align="center">
 
-<!-- Everything here is generated into this repo and committed, so nothing is fetched from a
-     third-party stats service that can rate-limit or go down.
-       portrait : python scripts/ascii_portrait.py <illustration> --crop 0.60 --cols 78
-       cards    : python scripts/profile_art.py
-     Both write a -dark and a -light variant; <picture> picks by prefers-color-scheme.
+<!-- Every image here is generated into this repo and committed, so nothing is fetched from a
+     third-party stats service that can rate-limit or go dark.
+       cards + banner : python scripts/profile_art.py        (reads the contribution ledger)
+       portrait       : python scripts/portrait_svg.py <illustration>
+     Each writes a -dark and a -light variant; <picture> picks by prefers-color-scheme.
      Motion is SMIL inside each SVG, because GitHub strips <script> and inline CSS. -->
 
-<h3><code>shreyanshj10@github ~ $ whoami</code></h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./name-banner-dark.svg">
+  <img src="./name-banner-light.svg" width="860" alt="Shreyansh Jain — Indore, India" />
+</picture>
+
+<p><b>Fullstack Developer · AI Builder · Agentic Systems</b></p>
+
+[![Merged PRs](https://img.shields.io/badge/Merged_PRs-18_across_13_repos-1a7f37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Ashreyanshj10+is%3Amerged)
+[![Instagram](https://img.shields.io/badge/Instagram-shreyanshjainnnn-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shreyanshjainnnn)
+[![Email](https://img.shields.io/badge/Email-shreyanshjain646-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyanshjain646@gmail.com)
+
+<br>
 
 <table>
 <tr>
@@ -32,22 +43,11 @@
   <img src="./merged-ladder-light.svg" width="860" alt="Merged pull requests by repository: dify 158.8k, vLLM 94.0k, book-to-skill 35.1k, serena 30.3k, bifrost 8.9k" />
 </picture>
 
-<br>
-<br>
-
-<h3><code>shreyanshj10@github ~ $ ./links.sh</code></h3>
-
-<p><b>Fullstack Developer · AI Builder · Agentic Systems</b></p>
-
-[![Merged PRs](https://img.shields.io/badge/Merged_PRs-18_across_13_repos-1a7f37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Ashreyanshj10+is%3Amerged)
-[![Instagram](https://img.shields.io/badge/Instagram-shreyanshjainnnn-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shreyanshjainnnn)
-[![Email](https://img.shields.io/badge/Email-shreyanshjain646-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyanshjain646@gmail.com)
-
 </div>
 
 <br>
 
-# Shreyansh Jain
+## About
 
 AI engineer. I work on agent systems, LLM tooling and the plumbing underneath them — streaming
 parsers, request translation between provider schemas, query generation, caching paths.
