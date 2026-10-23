@@ -15,6 +15,7 @@
 
 [![Merged PRs](https://img.shields.io/badge/Merged_PRs-18_across_13_repos-1a7f37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Ashreyanshj10+is%3Amerged)
 [![Instagram](https://img.shields.io/badge/Instagram-shreyanshjainnnn-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shreyanshjainnnn)
+[![Security advisory](https://img.shields.io/badge/Security-GHSA--94fr--2wj7--v4vj_(high)-b35900?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/share/sharedb/security/advisories/GHSA-94fr-2wj7-v4vj)
 [![Open to freelance](https://img.shields.io/badge/Open_to-freelance_work-1a7f37?style=for-the-badge&logo=handshake&logoColor=white)](mailto:shreyanshjain646@gmail.com?subject=Freelance%20work)
 [![Email](https://img.shields.io/badge/Email-shreyanshjain646-0d1117?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreyanshjain646@gmail.com)
 
@@ -43,6 +44,12 @@ parsers, request translation between provider schemas, query generation, caching
 
 Most of what I enjoy is one shape of problem: a value that is correct on one code path and quietly
 wrong on the one beside it. Below is where that has turned into upstream work.
+
+**Security.** `GHSA-94fr-2wj7-v4vj` (high) — ShareDB's agent accepted request fields it never
+type-checked, so a client could send `{"toString": 1}` and crash the server process with an
+uncaught `TypeError` inside database and pub/sub callbacks. I am the credited remediation
+developer; the fix shipped in
+[ShareDB v7.0.0](https://github.com/share/sharedb/releases/tag/v7.0.0).
 
 **I take on freelance work.** Python and Django, agent and LLM tooling, or ongoing maintenance on
 a codebase you would rather hand to someone who reads it before changing it. Small, tested changes
