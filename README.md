@@ -30,7 +30,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./merged-ladder-dark.svg">
-  <img src="./merged-ladder-light.svg" width="860" alt="Merged pull requests by repository: dify 161.2k, vLLM 97.0k, learn-claude-code 80.5k, rclone 61.0k, gitea 59.1k" />
+  <img src="./merged-ladder-light.svg" width="860" alt="Merged pull requests by repository: dify 161.2k, vLLM 97.0k (2), learn-claude-code 80.5k, rclone 61.0k, gitea 59.1k, book-to-skill 38.0k, mantine 31.9k, serena 31.4k, fyne 28.8k, lima 22.4k" />
 </picture>
 
 </div>
