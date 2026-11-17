@@ -13,7 +13,7 @@
 
 <p><b>Fullstack Developer · AI Builder · Agentic Systems</b></p>
 
-[![Merged PRs](https://img.shields.io/badge/Merged_PRs-32_across_24_repos-1a7f37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Ashreyanshj10+is%3Amerged)
+[![Merged PRs](https://img.shields.io/badge/Merged_PRs-33_across_25_repos-1a7f37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Ashreyanshj10+is%3Amerged)
 [![Instagram](https://img.shields.io/badge/Instagram-shreyanshjainnnn-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shreyanshjainnnn)
 [![Security advisory](https://img.shields.io/badge/Security-GHSA--94fr--2wj7--v4vj_(high)-b35900?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/share/sharedb/security/advisories/GHSA-94fr-2wj7-v4vj)
 [![Open to freelance](https://img.shields.io/badge/Open_to-freelance_work-1a7f37?style=for-the-badge&logo=handshake&logoColor=white)](mailto:shreyanshjain646@gmail.com?subject=Freelance%20work)
@@ -23,7 +23,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-card-dark.svg">
-  <img src="./profile-card-light.svg" width="860" alt="AI engineer; 32 merged pull requests across 24 repositories; 68% merge rate" />
+  <img src="./profile-card-light.svg" width="860" alt="AI engineer; 33 merged pull requests across 25 repositories; 69% merge rate" />
 </picture>
 
 <br>
@@ -59,7 +59,7 @@ me: [shreyanshjain646@gmail.com](mailto:shreyanshjain646@gmail.com).
 ## Merged
 
 <details>
-<summary><b>32 merged pull requests across 24 repositories</b> — open for the list</summary>
+<summary><b>33 merged pull requests across 25 repositories</b> — open for the list</summary>
 
 | Repository | Stars | PRs | Contribution |
 |---|---:|---:|---|
@@ -75,6 +75,7 @@ me: [shreyanshjain646@gmail.com](mailto:shreyanshjain646@gmail.com).
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 26.2k | 1 | [#15179](https://github.com/simple-icons/simple-icons/pull/15179) — update the Marko icon and its brand colour to match the mark and hex Marko now publishes |
 | [tayllan/awesome-algorithms](https://github.com/tayllan/awesome-algorithms) | 25.7k | 1 | [#1189](https://github.com/tayllan/awesome-algorithms/pull/1189) — repoint the dead link to Rice University's data-structures cheat sheet |
 | [lima-vm/lima](https://github.com/lima-vm/lima) | 22.4k | 1 | [#5782](https://github.com/lima-vm/lima/pull/5782) — document the minimal example for disabling port forwarding; the snippet the docs shipped still forwarded `127.0.0.1` |
+| [eclipse-theia/theia](https://github.com/eclipse-theia/theia) | 21.8k | 1 | [#18307](https://github.com/eclipse-theia/theia/pull/18307) — stop publishing ambient `const enum`s in the shipped `.d.ts` files, which made them unusable from any consumer built with `isolatedModules` or a per-file transpiler |
 | [maximhq/bifrost](https://github.com/maximhq/bifrost) | 9.6k | 2 | [#8208](https://github.com/maximhq/bifrost/pull/8208) map `output_text` to `text` on multi-part assistant turns — [#8209](https://github.com/maximhq/bifrost/pull/8209) keep the failed tool-result marker on the OpenAI Responses wire |
 | [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | 3.9k | 1 | [#30170](https://github.com/lingdojo/kana-dojo/pull/30170) — add a new common-mistake entry |
 | [spec-kitty/spec-kitty](https://github.com/spec-kitty/spec-kitty) | 1.7k | 1 | [#4798](https://github.com/spec-kitty/spec-kitty/pull/4798) — label query-mode preflight failures by consumer |
