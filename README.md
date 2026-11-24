@@ -98,6 +98,8 @@ me: [shreyanshjain646@gmail.com](mailto:shreyanshjain646@gmail.com).
 
 </details>
 
+Also shipped, though not as one of mine: the LaTeX control-space fix in [anomalyco/opencode](https://github.com/anomalyco/opencode) (227k stars). Their cleanup bot closes pull requests over a month old with fewer than two reactions, and mine ([#55359](https://github.com/anomalyco/opencode/pull/55359)) went with it while it waited for review. A contributor resubmitted the two commits unchanged as [#64156](https://github.com/anomalyco/opencode/pull/64156) — a bot-closed PR can only be reopened from the original fork — and it squash-merged into `dev` as `4cf9db95` with co-author credit, shipping in v2.4.1.
+
 ## Open, under review
 
 <details>
