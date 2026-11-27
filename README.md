@@ -13,6 +13,7 @@
 
 <p><b>Fullstack Developer · AI Builder · Agentic Systems</b></p>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-shreyanshjain.dev-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shreyanshjain.dev)
 [![Merged PRs](https://img.shields.io/badge/Merged_PRs-51_across_36_repos-1a7f37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3Ashreyanshj10+is%3Amerged)
 [![Instagram](https://img.shields.io/badge/Instagram-shreyanshjainnnn-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shreyanshjainnnn)
 [![Security advisory](https://img.shields.io/badge/Security-GHSA--94fr--2wj7--v4vj_(high)-b35900?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/share/sharedb/security/advisories/GHSA-94fr-2wj7-v4vj)
